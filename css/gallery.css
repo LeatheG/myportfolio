@@ -1,0 +1,28 @@
+.gall {
+  border-radius: 50px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.628);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+p {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 25px;
+}
+
+body {
+  height: 1800px;
+  background: linear-gradient(
+    155deg,
+    rgba(212, 212, 255, 0.594) 0%,
+    rgba(155, 155, 255, 0.594) 51%,
+    rgba(100, 100, 253, 0.594) 85%
+  );
+}

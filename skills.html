@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Lea's Portfolio - Skills</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/file_styles.css" />
+  </head>
+  <div class="desktop">
+    <body>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+  
+              <a href="index.html" class="navbar-text ms-2" style="text-decoration: none;">
+                <i class="bi bi-star-fill" style="font-size: 20px; color: #D6D6FF;"> Lea Goretoy</i>
+              </a>
+  
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+  
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                  <a class="nav-link hvr-bob" href="about_me.html">About</a>
+                  <a class="nav-link hvr-bob" href="js_projects.html">JavaScript</a>
+                  <a class="nav-link hvr-bob" href="css_projects.html">Css</a>
+                  <a class="nav-link hvr-bob" href="skills.html">Skills</a>
+                  <a class="nav-link hvr-bob" href="contact.html">Contact</a>
+                  <a class="nav-link hvr-bob" href="art.html">Art</a>
+                </div>
+              </div>
+  
+  
+              <span class="navbar-text me-2 d-none d-lg-block">
+                <i class="bi bi-wifi" style="font-size: 20px; color: white;"></i> &nbsp;
+                <i class="bi bi-battery-half" style="font-size: 20px; color: white;"></i> &nbsp;
+                <i class="bi bi-bell-slash " style="font-size: 20px; color: white;"></i>
+              </span>
+            </div>
+          </nav>
+          <button 
+            onclick="window.location.href='index.html'" 
+                class="btn close-btn">
+                ↩
+          </button>
+          <br>
+          
+         <!-- Certification Alert Box -->
+         <div class="alert alert-dark alert-dismissible fade show d-flex align-items-center" role="alert" style="position: fixed; left: 100px; top: 150px; width: 250px; z-index: 1000; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+         <i class="bi bi-check-circle-fill me-2" style="font-size: 24px;"></i>
+         <div>
+           <p class="mb-0 small"><a href="https://www.scrum.org/certificates/1217206" target="_blank" style="color: inherit; text-decoration: underline;">I am a certified in scrum!</a></p>
+           <p class="mb-0" style="font-size: 10px; margin-top: 5px; margin-left: 2px;">Email: leagoretoy@my.cwi.edu</p>
+         </div>
+         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" style="position: absolute; top: 5px; right: 5px;"></button>
+       </div>
+
+
+          <h2 class="text-center my-5">My Tech Skills</h2>
+      <main class="pb-5">
+        <div class="d-flex justify-content-center gap-5 flex-wrap">
+          <div class="design-card rounded-5 text-center">
+            <img src="img/icons/html.png" alt="HTML" style="width: 80px;" class="img-fluid mb-3" />
+            <p style="margin: 0;">HTML</p>
+          </div>
+        
+          <div class="design-card rounded-5 text-center">
+            <img src="img/icons/css.png" alt="CSS" style="width: 80px;" class="img-fluid mb-3" />
+            <p style="margin: 0;">CSS</p>
+          </div>
+
+          <div class="design-card rounded-5 text-center">
+            <img src="img/icons/c.png" alt="c#" style="width: 80px;" class="img-fluid mb-3" />
+            <p style="margin: 0;">C#</p>
+          </div>
+
+          <a href="https://github.com/LeatheG/LeatheG.github.io/blob/main/flower_garden.py" target="_blank" style="text-decoration: none;">
+            <div class="design-card rounded-5 text-center">
+              <img src="img/icons/python.png" alt="python" style="width: 80px;" class="img-fluid mb-3" />
+              <p style="margin: 0; color: black;">Python</p>
+            </div>
+          </a>
+
+        </div>
+      </main>
+
+      <h2 class="text-center my-4">My Art Skills</h2>
+      <main class="pb-5">
+        <div class="d-flex justify-content-center gap-5 flex-wrap">
+          <div class="design-card rounded-5 text-center">
+            <img src="img/icons/mspaint.png" alt="ms_paint" style="width: 80px;" title="Microsoft Paint" class="img-fluid mb-3" />
+            <p>MS Paint</p>
+          </div>
+        
+          <div class="design-card rounded-5 text-center">
+            <img src="img/icons/clip.png" alt="clip_studio_paint" style="width: 80px;" title="Clip Studio Paint" class="img-fluid mb-3" />
+            <p>CSP</p>
+          </div>
+
+        <div class="design-card rounded-5 text-center">
+          <img src="img/icons/procreate.png" alt="procreate" style="width: 80px;" class="img-fluid mb-3" />
+          <p>Procreate</p>
+        </div>
+
+        <div class="design-card rounded-5 text-center">
+          <img src="img/icons/sai.png" alt="paint_tool_sai" style="width: 80px;" title="Paint Tool Sai" class="img-fluid mb-3" />
+          <p>PTS</p>
+        </div>
+      </div>
+
+
+      <footer class="footer py-1"><!--footer----------------------------------------------------------------->
+        <div class="container-fluid d-flex justify-content-between align-items-center px-3">
+          
+          <div class="d-flex align-items-center">
+            <span class="social-icon me-2">
+              <i class="bi bi-person-circle">
+                <span style="visibility: hidden;"> Spacer text</span>
+              </i>
+            </span>
+          </div>
+          
+      
+          <div class="socials d-flex gap-4 justify-content-center">
+            <a href="https://www.linkedin.com/in/leah-g-6bab72338/" target="_blank" class="social-icon hvr-float">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/LeatheG" target="_blank" class="social-icon hvr-float">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.instagram.com/_dvoika__/" target="_blank" class="social-icon hvr-float">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+      
+          <p id="datetime" class="mb-0"></p>
+        </div>
+      </footer>
+          
+  </body>
+</html>

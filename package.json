@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "servor --reload"
+  },
+  "dependencies": {
+    "hover.css": "^2.3.2",
+    "moment": "^2.30.1",
+    "servor": "^4.0.2",
+    "aos": "^2.3.4"
+  },
+  "devDependencies": {
+    "box-shadows-css": "^1.0.51"
+  }
+}

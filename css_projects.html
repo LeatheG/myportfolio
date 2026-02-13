@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Lea's Portfolio - CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/file_styles.css" />
+  </head>
+  <div class="desktop">
+    <body>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+  
+              <a href="index.html" class="navbar-text ms-2" style="text-decoration: none;">
+                <i class="bi bi-star-fill" style="font-size: 20px; color: #D6D6FF;"> Lea Goretoy</i>
+              </a>
+  
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+  
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                  <a class="nav-link hvr-bob" href="about_me.html">About</a>
+                  <a class="nav-link hvr-bob" href="js_projects.html">JavaScript</a>
+                  <a class="nav-link hvr-bob" href="css_projects.html">Css</a>
+                  <a class="nav-link hvr-bob" href="skills.html">Skills</a>
+                  <a class="nav-link hvr-bob" href="contact.html">Contact</a>
+                  <a class="nav-link hvr-bob" href="art.html">Art</a>
+                </div>
+              </div>
+  
+              <span class="navbar-text me-2 d-none d-lg-block">
+                <i class="bi bi-wifi" style="font-size: 20px; color: white;"></i> &nbsp;
+                <i class="bi bi-battery-half" style="font-size: 20px; color: white;"></i> &nbsp;
+                <i class="bi bi-bell-slash " style="font-size: 20px; color: white;"></i>
+              </span>
+            </div>
+          </nav>
+          <button 
+            onclick="window.location.href='index.html'" 
+                class="btn close-btn">
+                ↩
+          </button>
+          <br>
+          <h2 class="text-center my-5">CSS Projects!</h2>
+      <main>
+        <div class="container gallery-section d-flex justify-content-center mt-0 pt-0">
+          <div class="row justify-content-center g-4 gallery-row">
+            <div class="col-12 col-sm-6 col-lg-4 px-5 mb-4 mb-lg-0 design-card rounded-5 hvr-bob">
+                <div class="lc-block mb-3">
+                  <img class="img-fluid" src="https://i.imgur.com/Dy6TSPh.png" alt="Podcast/Radio show" loading="lazy">
+                </div>
+                <div class="lc-block text-center mb-3">
+                    <div editable="rich">
+                        <h3 class="fw-light">Call In!</h3>
+                    </div>
+                </div>
+                <div class="lc-block text-center mb-4">
+                    <div editable="rich">
+                        <p class="small text-muted">Podcast/Radio show webpage made for SWDV 143</p>
+                    </div>
+                </div>
+                <div class="lc-block text-center">
+                    <a class="btn btn-link" href="https://stackblitz.com/edit/stackblitz-starters-lk9drkcx?embed=1&file=package.json&theme=dark&view=preview" role="button">Show Me</a>
+                </div>
+            </div>
+              <div class="col-12 col-sm-6 col-lg-4 px-5 mb-4 mb-lg-0 design-card rounded-5 hvr-bob">
+                  <div class="lc-block mb-3">
+                    <img class="img-fluid" src="https://i.imgur.com/n2i4i1O.png" alt="Car dealership" loading="lazy">
+                  </div>
+                  <div class="lc-block text-center mb-3">
+                      <div editable="rich">
+                          <h3 class="fw-light">All-Star Cars</h3>
+                      </div>
+                      
+                  </div>
+                  <div class="lc-block text-center mb-4">
+                      <div editable="rich">
+                          <p class="small text-muted">Car dealership page made for SWDV 143</p>
+                      </div>
+                  </div>
+                  <div class="lc-block text-center">
+                      <a class="btn btn-link" target="_blank" href="https://stackblitz.com/edit/stackblitz-starters-c71styky?embed=1&file=package.json&theme=dark&view=preview" role="button">Show Me</a>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 px-5 mb-4 mb-lg-0 design-card rounded-5 hvr-bob">
+                  <div class="lc-block mb-3">
+                    <img class="img-fluid" src="https://i.imgur.com/LHzIBBw.png" alt="Old Portfolio" loading="lazy">
+                  </div>
+                  <div class="lc-block text-center mb-3">
+                      <div editable="rich">
+                          <h3 class="fw-light">Old Portfolio</h3>
+                      </div>
+                  </div>
+                  <div class="lc-block text-center mb-4">
+                      <div editable="rich">
+                          <p class="small text-muted"> Portfolio project created last semester for SWDV 115</p>
+                      </div>
+                  </div>
+                  <div class="lc-block text-center">
+                  <a class="btn btn-link" target="_blank" href="https://github.com/LeatheG/LeatheG.github.io/tree/main/LGPortfolio" role="button">Show Me</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+        </body>
+      </main> 
+    </div>
+    <footer class="footer py-1"><!--footer----------------------------------------------------------------->
+      <div class="container-fluid d-flex justify-content-between align-items-center px-3">
+        
+        <div class="d-flex align-items-center">
+          <span class="social-icon me-2">
+            <i class="bi bi-person-circle">
+              <span style="visibility: hidden;"> Spacer text</span>
+            </i>
+          </span>
+        </div>
+        
+    
+        <div class="socials d-flex gap-4 justify-content-center">
+          <a href="https://www.linkedin.com/in/leah-g-6bab72338/" target="_blank" class="social-icon hvr-float">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/LeatheG" target="_blank" class="social-icon hvr-float">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.instagram.com/_dvoika__/" target="_blank" class="social-icon hvr-float">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+    
+        <p id="datetime" class="mb-0"></p>
+      </div>
+    </footer>
+    </footer>
+  </body>
+</html>

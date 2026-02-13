@@ -1,0 +1,71 @@
+created by lea goretoy, edited by leah goretoy
+all art credit goes to ----> lea goretoy
+
+--------------------------------------------------
+idea designed ---4/27/2025
+background + file imgs drawn ---4/28/2025
+
+started on 5/05/2025-------------------------------
+
+-boilerplate created through chatGPT and heavily edited
+
+-background img edited + placed
+
+-tried adding bootstrap with the use of bolt.ai, only to go then manually do it lol
+
+- spent around 3ish hours
+---------------------------------------------------
+
+5/06/2025------------------------------------------
+- added imgs for index and css pages
+
+-added a diff bground
+
+-changed up the footer, added a date + time with js
+
+-added more pages, imgs
+
+- spend almost 3hrs
+---------------------------------------------------
+
+5/12/2025------------------------------------------
+
+-added a nav bar, changed footer to better match theme, redrew icons
+
+- moved icons to all be on the lefthand side
+
+- added mp3 player and css for mp3, added sticky notes 
+
+- fixed issues w mp3 and nav bar
+
+- added an about me, added gallery/art page 
+
+- spent 11 hrs (through the night)
+---------------------------------------------------
+
+5/13/2025------------------------------------------
+- fine tuned gallery page, added art 
+
+- added contact page, validated/connected to school email
+
+- added img alts, added a fun font similar to my handwriting, linked all files, made sure there were no dead links
+
+- changed the bg colors again, filled filler content
+
+- added finishing touches, fixed drawings, glitches, etc.
+
+- spent 10 hrs (through the morning)
+
+---------------------------------------------------------
+
+9/19/2025------------------------------------------------
+
+- instagram link was broken, so I updated it.
+
+-------------------------------------------------------
+
+11/21/2025------------------------------------------------
+
+- added scrum certification and changed js on skills page to python, with a link to a python project
+
+-------------------------------------------------------
